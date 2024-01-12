@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.btn {
+  @apply w-[70px] h-[70px] rounded-[50%] bg-purple-800 text-[24px] border-[2px] border-solid border-purple-700 hover:border-purple-200;
+}
+.btn-orange {
+  @apply bg-orange-400;
+}
